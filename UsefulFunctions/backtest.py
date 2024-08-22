@@ -56,7 +56,7 @@ def plot_returns(returns_serie):
     (np.cumsum(returns_serie)*100).plot(figsize=(15,6))
     plt.xlabel('Year', fontsize=20)
     plt.ylabel('P&L in %', fontsize=20)
-    plt.title('Returns From Strategy', fontsize=20)
+    plt.title('Cumulative Returns From Strategy', fontsize=20)
     plt.show()
 
 
